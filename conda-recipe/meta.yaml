@@ -25,6 +25,7 @@ requirements:
   - q2-taxa {{ qiime2_epoch }}.*
   - q2-feature-table {{ qiime2_epoch }}.*
   build:
+  - python {{ python }}
   - setuptools
   - versioningit
 test:
